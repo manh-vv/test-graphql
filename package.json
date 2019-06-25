@@ -1,0 +1,23 @@
+{
+  "name": "test-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "manh.vv.htth@gmail.com",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "dataloader": "^1.4.0",
+    "dynamoose": "^1.8.4",
+    "faker": "^4.1.0",
+    "graphql-yoga": "^1.18.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "nodemon": "^1.19.1"
+  }
+}
